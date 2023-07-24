@@ -1,0 +1,86 @@
+.plans {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3em;
+}
+
+.plans-left {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-evenly;
+}
+
+.plans-right {
+    width: 40%;
+    background-color: rgba(173, 226, 223, 1);
+}
+
+.plans-left-item {
+    width: 20%;
+}
+
+.plans-left-item > a {
+    text-decoration: none;
+    border-radius: 0.5em;
+    background-color: rgba(173, 226, 223, 1);
+    padding: 0.5em 1em;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.plans-left-item > ul > li,
+.plans-right > div > ul > li {
+    list-style-type: none;
+}
+
+
+.plans-left-item > h4,
+.plans-right > div > h4 {
+    text-align: center;
+    padding-top: 2em;
+}
+
+.plans-right > div > h4:nth-child(2) {
+    text-align: center;
+    font-weight: 700;
+    padding-top: 0;
+}
+
+.plans-right > div > ul > li {
+    padding-left: 3em;
+}
+
+.plans-right > div > a {
+    color: white;
+    background-color: black;
+    width: 80%;
+    display: inline-block;
+    text-align: center;
+    border-radius: 0.5em;
+    margin-left: 3em;
+    padding: 1em 3em;
+}
+
+.plans-left-item > h2 > span {
+    font-size: 0.5em;
+    font-weight: 500;
+}
+
+
+
+.plans-left-item > a:visited,
+.plans-left-item > a:active {
+    color: black;
+
+}
+
+.plans-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 2em;
+}
+
+
+

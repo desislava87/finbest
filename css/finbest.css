@@ -1,0 +1,40 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
+
+.finbest {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: auto;
+    background-color: rgba(173, 226, 223, 1);
+}
+
+.finbest-left {
+    border: 0.5em dashed rgba(219, 219, 219, 1);
+    margin-left: 7em;
+}
+
+.finbest-left > img {
+    height: 50em;
+}
+
+.finbest-right {
+    display: flex;
+    flex-direction: column;
+    margin: auto 0 auto 7em;
+}
+
+.finbest-right > h2 {
+    font-size: 7em;
+    font-weight: 500;
+}
+
+.finbest-right-a {
+    border-bottom: 1px solid black;
+    width: 12em;
+}
+
+.finbest-right-a > a {
+    text-decoration: none;
+    color: black;
+}

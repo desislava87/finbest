@@ -1,0 +1,20 @@
+.pricing-plan {
+    background-color: rgba(243, 245, 250, 1);
+    padding: 10em 0;
+    text-align: center;
+}
+
+.pricing-plan > h2 {
+    margin-top: 2em;
+}
+
+.pricing-plan-link {
+    background-color: rgba(173, 226, 223, 1);
+    text-decoration: none;
+    color: black;
+    font-size: 2em;
+    font-weight: 500;
+    margin: 2em 1em;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+}
